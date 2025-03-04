@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & GitHub Explained</title>
+   <style>
+    /* Reset styles */
+body, h1, h2, h3, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+   </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#git">Git</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#commands">Commands</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Git & GitHub Guide</h1>
+        <p>Learn the fundamentals of Git and GitHub, version control, and important commands.</p>
+    </section>
+
+    <!-- Git Section -->
+    <section id="git">
+        <h2>What is Git?</h2>
+        <p>Git is a distributed version control system that helps developers track changes in their codebase, collaborate with others, and manage different versions of their projects.</p>
+        <h3>Features of Git:</h3>
+        <ul>
+            <li>Tracks changes in the code.</li>
+            <li>Allows multiple developers to collaborate.</li>
+            <li>Provides branching and merging features.</li>
+            <li>Stores project history securely.</li>
+        </ul>
+    </section>
+
+    <!-- GitHub Section -->
+    <section id="github">
+        <h2>What is GitHub?</h2>
+        <p>GitHub is a cloud-based platform that allows developers to store, share, and collaborate on Git repositories.</p>
+        <h3>Features of GitHub:</h3>
+        <ul>
+            <li>Host Git repositories online.</li>
+            <li>Enable collaboration with pull requests.</li>
+            <li>Provide issue tracking and project management tools.</li>
+            <li>Support CI/CD workflows and integrations.</li>
+        </ul>
+    </section>
+
+    <!-- Git Commands Section -->
+    <section id="commands">
+        <h2>Basic Git Commands</h2>
+        <table>
+            <tr>
+                <th>Command</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td><code>git init</code></td>
+                <td>Initialize a new Git repository.</td>
+            </tr>
+            <tr>
+                <td><code>git clone &lt;repo_url&gt;</code></td>
+                <td>Clone an existing repository.</td>
+            </tr>
+            <tr>
+                <td><code>git status</code></td>
+                <td>Check the status of your repository.</td>
+            </tr>
+            <tr>
+                <td><code>git add .</code></td>
+                <td>Add all files to staging area.</td>
+            </tr>
+            <tr>
+                <td><code>git commit -m "message"</code></td>
+                <td>Commit changes with a message.</td>
+            </tr>
+            <tr>
+                <td><code>git push origin main</code></td>
+                <td>Push changes to the remote repository.</td>
+            </tr>
+            <tr>
+                <td><code>git pull origin main</code></td>
+                <td>Pull latest changes from the remote repository.</td>
+            </tr>
+            <tr>
+                <td><code>git branch</code></td>
+                <td>List all branches.</td>
+            </tr>
+            <tr>
+                <td><code>git checkout -b new-branch</code></td>
+                <td>Create and switch to a new branch.</td>
+            </tr>
+            <tr>
+                <td><code>git merge branch-name</code></td>
+                <td>Merge a branch into the current branch.</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
